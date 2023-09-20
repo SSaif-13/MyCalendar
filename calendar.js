@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function openCustomEvent(date) {
     // Display the event input form
     document.getElementById("eventDate").value = date;
+    //document.getElementById("phoneNumber").value = "block";
     document.getElementById("customEvent").style.display = "block";
   }
 

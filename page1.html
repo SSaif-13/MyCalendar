@@ -16,6 +16,7 @@
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.0/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/twilio@4.17.0/dist/twilio.js"></script>
   </head>
 
   <body style="background-color: beige">
@@ -39,7 +40,7 @@
         <label for="eventDate">Event Date:</label>
         <input type="date" id="eventDate" required /><br />
         <button type="submit">Save</button>
-        <button type="button" onclick="closeEventModal()">Cancel</button>
+        <button type="button" onclick="closeCustomEvent()">Cancel</button>
       </form>
     </div>
   </body>
